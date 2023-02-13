@@ -1,6 +1,6 @@
 {
   "name": "rick-and-morty",
-  "homepage": "https://Magic-Kowel.github.io/RickAndMortyApp",
+  "homepage": "https://magic-kowel.github.io/RickAndMortyApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b app -d build"
   },
   "browserslist": {
     "production": [

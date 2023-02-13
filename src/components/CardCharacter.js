@@ -24,9 +24,9 @@ function CardCharacter(props){
                     </Typography>
                     </CardContent>
                     <CardActions disableSpacing>
-                        {/* <IconButton aria-label="gender">
+                        <div>
                             {props.gender==="Male"?<MaleIcon /> : <FemaleIcon />}
-                        </IconButton> */}
+                        </div>
                     </CardActions>
                 </CardActionArea>
             </Card>

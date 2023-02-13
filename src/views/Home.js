@@ -18,7 +18,8 @@ function Home(){
     const characters = useCharacters(APIURL);
 
     const filterCharacter = characters.filter((character)=>{
-        return character.name.includes(searchCharacter)
+        return character.name.toString().toUpperCase()
+        .includes(searchCharacter.toString().toUpperCase())
     })
     const handleChangePage = (page) =>{
         setLoader(true)
